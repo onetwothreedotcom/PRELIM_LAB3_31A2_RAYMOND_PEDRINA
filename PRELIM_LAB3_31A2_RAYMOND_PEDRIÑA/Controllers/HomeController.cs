@@ -17,8 +17,9 @@ namespace PRELIM_LAB3_31A2_RAYMOND_PEDRIÑA.Controllers
         {
             List<IDescribable> customers = new List<IDescribable>
             {
-                new Customer { Id = 1, Name = "Number One", Email = "1@gmail.com" },
-                new VIP { Id = 2, Name = "Too Num", Email = "2@gmail.com", MembershipLevel = "VIP" }
+                new Customer { Id = 1, Name = "Peppa Pig", Email = "peppa.pig@gmail.com" },
+                new VIP { Id = 2, Name = "Mommy Pig", Email = "mommy.pig@gmail.com", MembershipLevel = "VIP" },
+                new Customer { Id = 3, Name = "George Pig", Email = "george.pig@gmail.com" },
             };
 
             return View(customers);
