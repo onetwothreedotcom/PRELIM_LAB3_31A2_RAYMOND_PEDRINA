@@ -1,0 +1,15 @@
+﻿@model List<IDescribable>
+
+<body>
+<h2> Customer List</h2>
+
+<ul> 
+    @foreach (var customer in Model)
+    {
+        <li>@customer.Description()</li>
+    }
+</ul>
+
+<hr />
+
+</body>
